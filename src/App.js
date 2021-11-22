@@ -1,11 +1,11 @@
-import './App.css';
+import "./App.css";
+import React from "react";
+import Calculator from "./Calculator.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello React!</h1>
-      </header>
+    <div className="App d-flex j-center a-center">
+      <Calculator />
     </div>
   );
 }
