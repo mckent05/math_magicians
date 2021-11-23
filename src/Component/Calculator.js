@@ -1,11 +1,10 @@
+/* eslint-disable react/prop-types, react/prefer-stateless-function */
 import React, { Component } from 'react';
 import './Calculator.css';
-/* eslint-disable react/prop-types, react/prefer-stateless-function */
 
 class Calculator extends Component {
   render() {
     const tope = this.props;
-    console.log(tope.result);
     return (
       <div className="btn-cont d-flex j-center a-center">
         <div className="result d-flex a-center">
