@@ -1,13 +1,23 @@
-import "./App.css";
-import React from "react";
-import Calculator from "./Calculator.js";
+import './App.css';
+import React, { Component } from 'react';
+import Calculator from './Component/Calculator';
 
-function App() {
-  return (
-    <div className="App d-flex j-center a-center">
-      <Calculator />
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      result: 100,
+    };
+  }
+
+  render() {
+    const result = this.state;
+    return (
+      <div className="App d-flex j-center a-center">
+        <Calculator result={result.result} />
+      </div>
+    );
+  }
 }
 
 export default App;
