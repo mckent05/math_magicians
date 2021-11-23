@@ -5,6 +5,7 @@ import './Calculator.css';
 class Calculator extends Component {
   render() {
     const tope = this.props;
+    console.log(tope);
     return (
       <div className="btn-cont d-flex j-center a-center">
         <div className="result d-flex a-center">
@@ -14,10 +15,10 @@ class Calculator extends Component {
         </div>
         <div className="btn-container">
           <div className="first-row">
-            <button className="button" data-id="AC" type="button">AC</button>
+            <button className="button" data-id="AC" type="button" onClick={tope.clickEvent}>AC</button>
             <button className="button" data-id="oper" type="button">+/-</button>
             <button className="button" data-id="oper" type="button">%</button>
-            <button className="button" data-id="oper" type="button"> / </button>
+            <button className="button" data-id="oper" type="button">&#247;</button>
           </div>
           <div className="second-row">
             <button className="button" data-id="number" type="button">7</button>

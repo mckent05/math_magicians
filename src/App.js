@@ -6,15 +6,22 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      result: 100,
+      result: 10,
     };
+  }
+
+  onclick() {
+    this.setState((prevState) => {
+      console.log('i got clicked');
+      return ({ result: prevState });
+    });
   }
 
   render() {
     const result = this.state;
     return (
       <div className="App d-flex j-center a-center">
-        <Calculator result={result.result} />
+        <Calculator result={result.result} clickEvent={this.onclick} />
       </div>
     );
   }
