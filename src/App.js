@@ -20,7 +20,6 @@ const App = () => {
 
   const onclick = (e) => {
     const newObj = calculate(obj, e.target.dataset.id);
-    console.log(newObj);
     setObj(newObj);
     const newResult = showResult(newObj, e.target.dataset.id);
     setResult(newResult);

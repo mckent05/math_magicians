@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types, react/prefer-stateless-function */
 import React from 'react';
+
 import './Calculator.css';
 
 const Calculator = (props) => {
