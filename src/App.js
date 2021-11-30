@@ -1,7 +1,11 @@
 import './App.css';
 import React, { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Calculator from './Component/Calculator';
 import calculate from './Logic/calculate';
+import Navbar from './Component/Navbar';
+import Home from './Pages/Home';
+import Quotes from './Pages/Quotes';
 
 const App = () => {
   const showResult = (object, btnName) => {
@@ -26,9 +30,16 @@ const App = () => {
   };
 
   return (
-    <div className="App d-flex j-center a-center">
-      <Calculator result={result} clickEvent={(event) => onclick(event)} />
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/calculator" exact element={<Calculator result={result} clickEvent={(event) => onclick(event)} />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/quotes" element={<Quotes />} />
+      </Routes>
+
     </div>
+
   );
 };
 

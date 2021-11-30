@@ -6,12 +6,15 @@ const Calculator = (props) => {
   const tope = props;
   return (
     <div className="btn-cont d-flex j-center a-center">
-      <div className="result d-flex a-center">
-        <p>
-          {tope.result}
-        </p>
+      <div className="header-title">
+        <h2>Let&apos;s do Some Maths</h2>
       </div>
       <div className="btn-container">
+        <div className="result d-flex a-center">
+          <p>
+            {tope.result}
+          </p>
+        </div>
         <div className="first-row">
           <button className="button" data-id="AC" type="button" onClick={tope.clickEvent}>AC</button>
           <button className="button" data-id="+/-" type="button" onClick={tope.clickEvent}>+/-</button>
