@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing calculator and events testing for events on calculator 1`] = `
+"<div class=\\"btn-cont d-flex j-center a-center\\">
+  <div class=\\"header-title\\">
+    <h2>Let's do Some Maths</h2>
+  </div>
+  <div class=\\"btn-container\\">
+    <div class=\\"result d-flex a-center\\">
+      <p id=\\"result\\"></p>
+    </div>
+    <div class=\\"first-row\\"><button class=\\"button\\" data-id=\\"AC\\" type=\\"button\\">AC</button><button class=\\"button\\" data-id=\\"+/-\\" type=\\"button\\">+/-</button><button class=\\"button\\" data-id=\\"%\\" type=\\"button\\">%</button><button class=\\"button\\" data-id=\\"÷\\" type=\\"button\\">÷</button></div>
+    <div class=\\"second-row\\"><button class=\\"button\\" data-id=\\"7\\" type=\\"button\\">7</button><button class=\\"button\\" data-id=\\"8\\" type=\\"button\\">8</button><button class=\\"button\\" data-id=\\"9\\" type=\\"button\\">9</button><button class=\\"button\\" data-id=\\"x\\" type=\\"button\\"> x </button></div>
+    <div class=\\"third-row\\"><button class=\\"button\\" data-id=\\"4\\" type=\\"button\\">4</button><button class=\\"button\\" data-id=\\"5\\" type=\\"button\\">5</button><button class=\\"button\\" data-id=\\"6\\" type=\\"button\\">6</button><button class=\\"button\\" data-id=\\"-\\" type=\\"button\\">-</button></div>
+    <div class=\\"fourth-row\\"><button class=\\"button\\" data-id=\\"1\\" type=\\"button\\">1</button><button class=\\"button\\" data-id=\\"2\\" type=\\"button\\">2</button><button class=\\"button\\" data-id=\\"3\\" type=\\"button\\">3</button><button class=\\"button\\" data-id=\\"+\\" type=\\"button\\">+</button></div>
+    <div class=\\"fifth-row\\"><button class=\\"button zero\\" data-id=\\"0\\" type=\\"button\\">0</button><button class=\\"button\\" data-id=\\".\\" type=\\"button\\">.</button><button class=\\"button\\" data-id=\\"=\\" type=\\"button\\">=</button></div>
+  </div>
+</div>"
+`;

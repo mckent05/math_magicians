@@ -11,7 +11,7 @@ const Calculator = (props) => {
       </div>
       <div className="btn-container">
         <div className="result d-flex a-center">
-          <p>
+          <p id="result">
             {tope.result}
           </p>
         </div>
