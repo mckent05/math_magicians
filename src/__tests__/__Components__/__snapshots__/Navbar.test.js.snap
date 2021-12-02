@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing for the UI of Navbar 1`] = `
+"<div class=\\"main-nav d-flex\\">
+  <h2 class=\\"header\\">Math Magicians</h2>
+  <ul class=\\"nav-links d-flex j-center a-center\\">
+    <li><a class=\\"nav-link\\" data-testid=\\"home\\" href=\\"/\\">Home</a></li>
+    <li><a class=\\"nav-link\\" data-testid=\\"calculator\\" href=\\"/calculator\\">Calculator</a></li>
+    <li><a class=\\"nav-link\\" data-testid=\\"quote\\" href=\\"/quotes\\">Quote</a></li>
+  </ul>
+</div>"
+`;

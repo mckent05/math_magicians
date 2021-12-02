@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing for the UI of QuotePage 1`] = `
+"<div class=\\"quote\\">
+  <p>\\"Mathematics is the queen of science and arithemetic the queen of mathematics\\" - Carl Friedrich Gauss</p>
+  <p>\\"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is\\" - Carl Friedrich Gauss</p>
+</div>"
+`;
