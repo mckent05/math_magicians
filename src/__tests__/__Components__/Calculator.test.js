@@ -28,7 +28,6 @@ describe('testing calculator and events', () => {
 
     expect(pretty(container.innerHTML)).toMatchSnapshot();
 
-    
     const event1 = fireEvent.click(screen.getByText('1'));
     expect(event1).toBe(true);
 
