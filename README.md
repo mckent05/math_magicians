@@ -7,7 +7,8 @@
 -  A simple calculator app created using react and can be used to perform simple claculations like additio, substraction, multiplication and division
 
 # Live View
-- No Live view for this project yet.
+- [View Live on Heroku](https://mckent-calculator.herokuapp.com/)
+- [View on Netflify](https://mckent05-react-calculator.netlify.app/)
 
 # Getting Started
 
